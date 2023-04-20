@@ -1,0 +1,49 @@
+
+body{
+	background-image: url("image3.png");
+/*	background-size: cover;*/
+
+}
+h1{
+	background-color: skyblue;
+	text-align: center;
+	position: static;
+
+}
+
+.converter-Full-Body{
+	height: 250px;
+	width: 35%;
+	border-radius: 30px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	position: absolute;top: 50%; left: 50%;;
+	background-color: fuchsia;
+	transform: translate(-50%,-25%);
+}
+
+.mouse{
+	text-align: center;
+	background-color: greenyellow;
+	border-radius: 25% 10%; 
+}
+
+input{
+	 width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+#input{
+	margin-left: 25px;
+}
+
+#inputType,#resultType{
+	width: 40%;
+	margin-left: 25px;
+	color: red;
+}
+
+#resultType{
+	margin-left: 15px;
+	
+}
